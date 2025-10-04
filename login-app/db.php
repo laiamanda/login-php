@@ -1,6 +1,6 @@
 <?php 
-    $host = "localhost";
-    $username = "root";
+    $host = "";
+    $username = "";
     $password = "";
     $database = "login_app";
 
@@ -46,4 +46,5 @@
         $sql = "DELETE FROM users WHERE id = $user_id";
         return mysqli_query($conn, $sql);
     }
+
 ?>
